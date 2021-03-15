@@ -46,7 +46,7 @@ const textNodes = [
     id: 1,
     name: "Valeria",
     text: "Oh, you're finally awake.",
-    portrait: "assets/busts/valeria/valeria.png",
+    portrait: "assets/busts/Valeria/Valeria.png",
     options: [
       {
         text: 'Who are you?',
@@ -62,16 +62,15 @@ const textNodes = [
   {
     id: 2,
     name: "Valeria",
-    text: "Oh, dear. You must've hit your head rather hard.",
-    portrait: "assets/busts/valeria/valeriasad.png"
+    text: "Oh, dear. You must've hit your head rather hard. My name is Valeria. I am a friend of your father's. This is my home. You were knocked unconscious for quite sometime.",
+    portrait: "assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
-        text: 'Take the goo',
-        setState: { blueGoo: true },
+        text: "...Knocked unconscious?",
         nextText: 2
       },
       {
-        text: 'Leave the goo',
+        text: 'My father...?',
         nextText: 2
       }
     ]
