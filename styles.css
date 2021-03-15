@@ -2,7 +2,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded;
+     font-family: "Vollkorn", 'sans-serif';
+     font-size: 15pt;
 }
 
 body {
@@ -18,12 +19,26 @@ body {
      background-size: cover;
 }
 
+.bustpos {
+    transform: translate(300px, 630px);
+}
+
 .textboxpos {
-    transform: translate(400px, 700px);
+    transform: translate(400px, 680px);
 }
 
 .container {
     width: 1000px;
+    height: 170px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.nametag {
+    width: 500px;
     height: 170px;
     max-width: 80%;
     background-color: white;

@@ -1,5 +1,6 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
+const name = document.getElementById('name')
 
 let state = {}
 
@@ -43,15 +44,16 @@ const textNodes = [
 
   {
     id: 1,
-    text: 'You wake up in a strange place and you see a jar of blue goo near you.',
+    name: "Valeria",
+    text: "Oh, you're finally awake.",
+    portrait: "assets/busts/valeria/valeria.png",
     options: [
       {
-        text: 'Take the goo',
-        setState: { blueGoo: true },
+        text: 'Who are you?',
         nextText: 2
       },
       {
-        text: 'Leave the goo',
+        text: 'Where am I?',
         nextText: 2
       }
     ]
@@ -59,7 +61,9 @@ const textNodes = [
 
   {
     id: 2,
-    text: 'TREE TWO.',
+    name: "Valeria",
+    text: "Oh, dear. You must've hit your head rather hard.",
+    portrait: "assets/busts/valeria/valeriasad.png"
     options: [
       {
         text: 'Take the goo',
