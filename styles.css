@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+     background-image: url('assets/bg/den.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+.textboxpos {
+    transform: translate(400px, 700px);
+}
+
+.container {
+    width: 1000px;
+    height: 170px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: hsl(200, 100%, 50%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
