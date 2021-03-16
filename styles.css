@@ -20,7 +20,7 @@ body {
 }
 
 .bustpos {
-    transform: translate(-70px, -913px);
+    transform: translate(-60px, -913px);
     position: relative;
     z-index: -10;
 }
