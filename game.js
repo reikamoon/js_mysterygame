@@ -1,6 +1,7 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 const name = document.getElementById('name')
+const portrait = document.getElementById('portrait')
 
 let state = {}
 
@@ -66,11 +67,11 @@ const textNodes = [
     portrait: "assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
-        text: "...Knocked unconscious?",
-        nextText: 2
+        text: "Back",
+        nextText: 1
       },
       {
-        text: 'My father...?',
+        text: 'Next',
         nextText: 2
       }
     ]

@@ -20,21 +20,25 @@ body {
 }
 
 .bustpos {
-    transform: translate(300px, 630px);
+    transform: translate(-70px, -913px);
+    position: relative;
+    z-index: -10;
 }
 
 .textboxpos {
-    transform: translate(400px, 680px);
+    transform: translate(400px, 660px);
+    position: relative;
 }
 
 .container {
     width: 1000px;
-    height: 170px;
+    height: 250px;
     max-width: 80%;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
+    z-index: 5;
 }
 
 .nametag {
