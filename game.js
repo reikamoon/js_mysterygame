@@ -1,6 +1,6 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
-const name = document.getElementById('name')
+const nameElement = document.getElementById('name')
 const portrait = document.getElementById('portrait')
 
 let state = {}
@@ -13,6 +13,8 @@ function startGame() {
 function showTextNode(textNodeIndex) {
   const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
   textElement.innerText = textNode.text
+  nameElement.innerText = textNode.name
+  portrait.src = textNode.portrait
   while (optionButtonsElement.firstChild) {
     optionButtonsElement.removeChild(optionButtonsElement.firstChild)
   }
@@ -45,16 +47,16 @@ const textNodes = [
 
   {
     id: 1,
-    name: "Valeria",
-    text: "Oh, you're finally awake.",
-    portrait: "assets/busts/Valeria/Valeria.png",
+    name: "Vivian",
+    text: "Hi!",
+    portrait: "/assets/busts/Valeria/Valeria.png",
     options: [
       {
-        text: 'Who are you?',
+        text: 'Hi',
         nextText: 2
       },
       {
-        text: 'Where am I?',
+        text: 'Hello',
         nextText: 2
       }
     ]
@@ -62,9 +64,9 @@ const textNodes = [
 
   {
     id: 2,
-    name: "Valeria",
-    text: "Oh, dear. You must've hit your head rather hard. My name is Ella. I am a friend of your father's. This is my home. You were knocked unconscious for quite sometime.",
-    portrait: "assets/busts/Valeria/ValeriaSad.png",
+    name: "Vivian",
+    text: "Hello!",
+    portrait: "/assets/busts/Vivian/Vivian.png",
     options: [
       {
         text: "Back",
