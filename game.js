@@ -45,7 +45,7 @@ const textNodes = [
 
   {
     id: 1,
-    name: "Ella",
+    name: "Valeria",
     text: "Oh, you're finally awake.",
     portrait: "assets/busts/Valeria/Valeria.png",
     options: [
@@ -62,7 +62,7 @@ const textNodes = [
 
   {
     id: 2,
-    name: "Ella",
+    name: "Valeria",
     text: "Oh, dear. You must've hit your head rather hard. My name is Ella. I am a friend of your father's. This is my home. You were knocked unconscious for quite sometime.",
     portrait: "assets/busts/Valeria/ValeriaSad.png",
     options: [
