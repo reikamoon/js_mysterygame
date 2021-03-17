@@ -1,6 +1,8 @@
 <center>
 
-## Meet the Cast
+# Meet the Cast
+<img src="/assets/Suspects.png">
+<br>
 
 <img src="/assets/portraits/Sam.png">
 <br>
