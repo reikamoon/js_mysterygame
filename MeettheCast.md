@@ -8,11 +8,9 @@
 ## Sam [Player]
 ### Age: 19
 The main protagonist who was invited to a dinner party celebrating your father's protégé's first victory in a big art competition. Shortly after your father's protégé was murdered, you were knocked unconscious, and woke up with little to no memories of the event.
-<br>
 
 
 <img src="/assets/busts/Arius/AriusPortraitBW.png">
-<br>
 
 ## Arius [Deceased]
 ### Age: 23
