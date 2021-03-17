@@ -117,7 +117,7 @@ const textNodes = [
   {
     id: 3,
     name: "Valeria",
-    text: "My name is Valeria. I am a friend of your father's, and you're currently in my living room. You...had an accident.",
+    text: "My name is Valeria. Your name is Sam. I am a friend of your father's, and you're currently in my living room. You...had an accident.",
     portrait: "/assets/busts/Valeria/ValeriaHappy3.png",
     options: [
       {
@@ -230,12 +230,64 @@ const textNodes = [
       {
         text: "Murdered? Did they catch the killer?",
         score: 1,
-        nextText: 7
+        nextText: 15
       },
       {
         text: "I'm sorry for your loss.",
         score: 2,
-        nextText: 7
+        nextText: 15
+      }
+    ]
+  },
+
+  {
+    id: 10,
+    name: "Valeria",
+    text: "Yes, he supposedly won first place.",
+    portrait: "/assets/busts/Valeria/ValeriaHappy2.png",
+    options: [
+      {
+        text: "...Supposedly?",
+        nextText: 11
+      },
+      {
+        text: "You don't sound too confident.",
+        nextText: 11
+      }
+    ]
+  },
+
+  {
+    id: 11,
+    name: "Valeria",
+    text: "Listen...I love Arius dearly. I would not dare to talk poorly about the deceased, but...his style is quite questionable. He has entered many competitions, but lost all but this one. It's a shame his luck ran dry. But hey, I was in his shoes before. Can't win them all.",
+    portrait: "/assets/busts/Valeria/ValeriaAngry.png",
+    options: [
+      {
+        text: "()",
+        nextText: 14
+      },
+      {
+        text: "(She seems jealous...)",
+        setState: { valeriaSus: true },
+        nextText: 12
+      }
+    ]
+  },
+
+  {
+    id: 12,
+    name: "Sam (player)",
+    text: "(Something is off about the way she talks about Arius. Maybe I should push further? What should I ask?)",
+    portrait: "/assets/busts/Valeria/ValeriaSad2.png",
+    options: [
+      {
+        text: "You sound like you're jealous of Arius's sudden victory.",
+        nextText: 13
+      },
+      {
+        text: "",
+        nextText: 13
       }
     ]
   },
