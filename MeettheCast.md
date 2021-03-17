@@ -9,14 +9,13 @@
 ### Age: 19
 The main protagonist who was invited to a dinner party celebrating your father's protégé's first victory in a big art competition. Shortly after your father's protégé was murdered, you were knocked unconscious, and woke up with little to no memories of the event.
 <br>
-<br>
+
 
 <img src="/assets/busts/Arius/AriusPortraitBW.png">
 
 ## Arius [Deceased]
 ### Age: 23
 Sam's father's protégé, and Valeria's nephew. He has lost every art competition he ever entered, until Sam's father took him under his wing. After winning his first art competiton, his Aunt Valeria decided to celebrate with a big dinner party. His luck quickly ran dry...
-<br>
 <br>
 
 
@@ -25,7 +24,6 @@ Sam's father's protégé, and Valeria's nephew. He has lost every art competitio
 ## Valeria
 ### Age: 28
 Valeria always had dreams of becoming famous, so she tried to strike it rich as a famous artist. However, she did not make it big in the art industry, and ended up marrying a wealthy, famous, film director. She lives in the spotlight through him. She is the one who recommended Arius to your father, a long-time friend of hers.
-<br>
 <br>
 
 <img src="/assets/portraits/Aurelia.png">
