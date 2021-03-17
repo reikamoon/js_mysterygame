@@ -19,7 +19,6 @@ Sam's father's protégé, and Valeria's nephew. He has lost every art competitio
 
 
 <img src="/assets/portraits/Valeria.png">
-<br>
 
 ## Valeria
 ### Age: 28
@@ -27,7 +26,6 @@ Valeria always had dreams of becoming famous, so she tried to strike it rich as 
 <br>
 
 <img src="/assets/portraits/Aurelia.png">
-<br>
 
 ## Aurelia
 ### Age: 24
@@ -35,7 +33,6 @@ Valeria's younger sister. A successful business woman who manages her own high-e
 <br>
 
 <img src="/assets/portraits/Dad.png">
-<br>
 
 ## Dad
 ### Age: 43
@@ -43,7 +40,6 @@ Sam's father, who was once a world-famous artist. Although retired, he has dedic
 <br>
 
 <img src="/assets/portraits/Dante.png">
-<br>
 
 ## Dante
 ### Age: 24
@@ -51,7 +47,6 @@ A cold, blunt, man who is protective of his timid younger sister, Katalina. He i
 <br>
 
 <img src="/assets/portraits/Katalina.png">
-<br>
 
 ## Katalina
 ### Age: 20
@@ -59,7 +54,6 @@ Unlike her sharp-tongued elder brother, Katalina is meek and polite to a fault. 
 <br>
 
 <img src="/assets/portraits/Sabrina.png">
-<br>
 
 ## Sabrina
 ### Age: 23
@@ -67,7 +61,6 @@ A good friend of Dante and Arius. She can be described as a fun-loving gal who's
 <br>
 
 <img src="/assets/portraits/Vivian.png">
-<br>
 
 ## Vivian
 ### Age: 19
@@ -75,7 +68,6 @@ Vivian wears her heart on her sleeve, with pride. She's not afraid to speak her 
 <br>
 
 <img src="/assets/portraits/Oskar.png">
-<br>
 
 ## Oskar
 ### Age: 19
@@ -83,7 +75,6 @@ Oskar is a famous artist who was winning prestigious art awards since he was a c
 <br>
 
 <img src="/assets/portraits/Elijah.png">
-<br>
 
 ## Elijah
 ### Age: 26
@@ -91,7 +82,6 @@ One of your father's mentees. He has aspirations to make it big as a famous arti
 <br>
 
 <img src="/assets/portraits/Connor.png">
-<br>
 
 ## Connor
 ### Age: 26
@@ -99,7 +89,6 @@ Connor is a computer programmer and a good friend of Valeria. He is quite the fa
 <br>
 
 <img src="/assets/portraits/Lena.png">
-<br>
 
 ## Lena
 ### Age: 22
