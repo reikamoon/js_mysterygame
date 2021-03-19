@@ -135,7 +135,7 @@ const textNodes = [
     id: 101,
     name: "???",
     text: "It's alright, calm down. My name is Valeria, I am an old friend of your father's. You are in my home, I invited you and your father here for a dinner party. Alas, you had an...accident.",
-    portrait: "/assets/busts/Valeria/ValeriaSad.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
         text: 'An accident?',
@@ -152,7 +152,7 @@ const textNodes = [
     id: 102,
     name: "Valeria",
     text: "Yes. You hit your head in the dining room, and were asleep for a while. The puzzled look on your face may suggest retrograde amnesia...but I'm no doctor. I hope your memories return soon, you were our key witness.",
-    portrait: "/assets/busts/Valeria/Valeria3.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria3.png",
     options: [
       {
         text: 'Key witness?',
@@ -169,7 +169,7 @@ const textNodes = [
     id: 103,
     name: "Valeria",
     text: "Oh, you mustn't worry your little bandaged head, Sammy. Your father is with the others right now, in the den. It's best we have everyone in one room, considering there's a murderer on the loose. ",
-    portrait: "/assets/busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria4.png",
     options: [
       {
         text: 'Murderer?!',
@@ -186,7 +186,7 @@ const textNodes = [
     id: 104,
     name: "Valeria",
     text: "Ah, yes. I won't beat around the bush: our guest of honor, Arius, has been murdered in the kitchen. You were the last person with Arius before he died.",
-    portrait: "/assets/busts/Valeria/ValeriaSad2.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad2.png",
     options: [
       {
         text: 'Can you tell me more details about the murder?',
@@ -203,8 +203,8 @@ const textNodes = [
     id: 105,
     name: "Valeria",
     text: "Certainly. Arius was murdered with a kitchen knife, and left bleeding on the kitchen floor. I believe it was one stab to the chest. Again, you were the last one with Arius before he died.I don't believe you did it, but the others...",
-    portrait: "/assets/busts/Valeria/ValeriaThinking.png",
-    photo: "/assets/busts/Arius/AriusPortraitBW.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaThinking.png",
+    photo: "/js_mysterygame/assets/busts/Arius/AriusPortraitBW.png",
     options: [
       {
         text: 'The others?',
@@ -221,8 +221,8 @@ const textNodes = [
     id: 106,
     name: "Valeria",
     text: "Arius...he was your father's protégé. We were celebrating his very first art competition victory after several losses. It's such a tragedy...his luck has run dry.",
-    portrait: "/assets/busts/Valeria/ValeriaSad2.png",
-    photo: "/assets/busts/Arius/AriusPortraitBW.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad2.png",
+    photo: "/js_mysterygame/assets/busts/Arius/AriusPortraitBW.png",
     options: [
       {
         text: 'Any other information on his murder?',
@@ -239,7 +239,7 @@ const textNodes = [
     id: 107,
     name: "???",
     text: "Valeria, Sam, is everything alright in there?",
-    portrait: "/assets/busts/Valeria/Valeria2.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria2.png",
     photo: "None",
     options: [
       {
@@ -259,7 +259,7 @@ const textNodes = [
     id: 108,
     name: "???",
     text: "Thank god you're alright, Valeria. It's good to see you're awake, Sam. You've got a lot to answer for.",
-    portrait: "/assets/busts/Dante/DanteAnnoyed.png",
+    portrait: "/js_mysterygame/assets/busts/Dante/DanteAnnoyed.png",
     options: [
       {
         text: 'Who are you?',
@@ -276,7 +276,7 @@ const textNodes = [
     id: 109,
     name: "???",
     text: "Valeria! Thank god you're alright. It was so quiet in here...I had thought Sam gutted you as well. You've got a lot of nerve, Sam. I'll personally make sure you answer for your crimes!",
-    portrait: "/assets/busts/Dante/DanteAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Dante/DanteAngry2.png",
     photo: "None",
     options: [
       {
@@ -294,7 +294,7 @@ const textNodes = [
     id: 110,
     name: "Dante",
     text: "You must've hit your head harder than I thought. But you could easily be playing dumb. It's me, Dante. You know, Katalina's brother, and Arius's friend. You know, the guy your murdered in cold blood. You will pay for what you did. I swear it.",
-    portrait: "/assets/busts/Dante/DanteAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Dante/DanteAngry2.png",
     options: [
       {
         text: 'My crimes?',
@@ -312,7 +312,7 @@ const textNodes = [
     id: 112,
     name: "Valeria",
     text: "Dante, stop it! There's no way that Sam killed Arius. Sam is innocent. Sam, you must prove your innocence. I cannot allow the others to slander you like this any further! ",
-    portrait: "/assets/busts/Valeria/ValeriaAngry4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaAngry4.png",
     options: [
       {
         text: "Don't worry. I won't let you down.",
@@ -329,7 +329,7 @@ const textNodes = [
     id: 111,
     name: "Dante",
     text: "Don't play stupid. You were the last one with Arius before he died. We found you unconscious in the kitchen with Arius's dead body. It had to be you!",
-    portrait: "/assets/busts/Dante/DanteAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Dante/DanteAngry2.png",
     options: [
       {
         text: "I swear I'm not the killer.",
@@ -346,7 +346,7 @@ const textNodes = [
     id: 113,
     name: "Valeria",
     text: "Thank you, Sam. There are 11 possible suspects. (You can read more about the suspects in Meet the Cast on the menu) You must find the killer before they strike again. (Prologue End.)",
-    portrait: "/assets/busts/Valeria/ValeriaSad2.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad2.png",
     options: [
       {
         text: "Restart the Prologue",
@@ -363,7 +363,7 @@ const textNodes = [
     id: 200,
     name: "Dad",
     text: "Welcome to interrogation mode. This is a snippet of the gameplay for interrogations. I will tell you a story, and make sure you pay attention.",
-    portrait: "/assets/busts/Dad/Dad.png",
+    portrait: "/js_mysterygame/assets/busts/Dad/Dad.png",
     options: [
       {
         text: "Ready.",
@@ -380,7 +380,7 @@ const textNodes = [
     id: 201,
     name: "Dad",
     text: "There was a crooked man, and he walked a crooked mile. He found a crooked sixpence, and a crooked stile. He bought a crooked cat, which caught a crooked mouse, and they all lived together, in a crooked little house. Did you get that?",
-    portrait: "/assets/busts/Dad/DadConfused.png",
+    portrait: "/js_mysterygame/assets/busts/Dad/DadConfused.png",
     options: [
       {
         text: "Ready.",
@@ -397,7 +397,7 @@ const textNodes = [
     id: 202,
     name: "Aurelia",
     text: "I will try to retell the nursery rhyme, and if you see an error, make sure to point it out to get points. If you miss an error, you will lose points.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Ready!",
@@ -414,7 +414,7 @@ const textNodes = [
     id: 203,
     name: "Aurelia",
     text: "There was a crooked woman...",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Lie",
@@ -433,7 +433,7 @@ const textNodes = [
     id: 205,
     name: "Aurelia",
     text: "Me? Wrong? Don't be absurd!",
-    portrait: "/assets/busts/Aurelia/AureliaAngry.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry.png",
     options: [
       {
         text: "The crooked man, not woman.",
@@ -452,7 +452,7 @@ const textNodes = [
     id: 206,
     name: "Aurelia",
     text: "And he walked a crooked mile.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Lie",
@@ -471,7 +471,7 @@ const textNodes = [
     id: 207,
     name: "Aurelia",
     text: "He found a crooked sixpence and a crooked stile.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Lie",
@@ -490,7 +490,7 @@ const textNodes = [
     id: 208,
     name: "Aurelia",
     text: "He bought a crooked dog, which caught a crooked mouse.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Lie",
@@ -509,7 +509,7 @@ const textNodes = [
     id: 209,
     name: "Aurelia",
     text: "Me, wrong? Don't be absurd! Where's your proof?",
-    portrait: "/assets/busts/Aurelia/AureliaAngry.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry.png",
     options: [
       {
         text: "He bought a crooked hog.",
@@ -528,7 +528,7 @@ const textNodes = [
     id: 210,
     name: "Aurelia",
     text: "And they all lived together.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Lie",
@@ -547,7 +547,7 @@ const textNodes = [
     id: 211,
     name: "Aurelia",
     text: "In a crooked little hows.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/Aurelia2.png",
     options: [
       {
         text: "Lie",
@@ -566,7 +566,7 @@ const textNodes = [
     id: 212,
     name: "Aurelia",
     text: "Me, wrong? Don't be absurd! Where's your proof?",
-    portrait: "/assets/busts/Aurelia/AureliaAngry.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry.png",
     options: [
       {
         text: "crooked house.",
@@ -585,7 +585,7 @@ const textNodes = [
     id: 213,
     name: "Aurelia",
     text: "Let's see how well you did. What animal caught what in the poem?",
-    portrait: "/assets/busts/Aurelia/AureliaSurprised.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaSurprised.png",
     options: [
       {
         text: "The crooked dog caught a crooked mouse.",
@@ -617,7 +617,7 @@ const textNodes = [
     id: 215,
     name: "Aurelia",
     text: "Congratulations! A perfect score! Great job! (End of interrogation demo).",
-    portrait: "/assets/busts/Aurelia/AureliaSurprised.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaSurprised.png",
     options: [
       {
         text: "Restart",
@@ -637,7 +637,7 @@ const textNodes = [
     id: 216,
     name: "Aurelia",
     text: "Oh, dear. Looks like you lost. You need a perfect score in order to win. (End of interrogation demo).",
-    portrait: "/assets/busts/Aurelia/AureliaSad2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaSad2.png",
     options: [
       {
         text: "Restart",
@@ -657,7 +657,7 @@ const textNodes = [
     id: 220,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -675,7 +675,7 @@ const textNodes = [
     id: 221,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -693,7 +693,7 @@ const textNodes = [
     id: 225,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -711,7 +711,7 @@ const textNodes = [
     id: 222,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -729,7 +729,7 @@ const textNodes = [
     id: 223,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -747,7 +747,7 @@ const textNodes = [
     id: 224,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
+    portrait: "/js_mysterygame/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -765,7 +765,7 @@ const textNodes = [
     id: 300,
     name: "Valeria",
     text: "There are exactly 13 characters throughout the game. Care to meet them?",
-    portrait: "/assets/busts/Valeria/ValeriaHappy2.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaHappy2.png",
     options: [
       {
         text: "Yes",
@@ -783,7 +783,7 @@ const textNodes = [
     id: 301,
     name: "Valeria",
     text: "Choose who you would like to meet.",
-    portrait: "/assets/busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria4.png",
     options: [
 
       {
@@ -812,7 +812,7 @@ const textNodes = [
     id: 302,
     name: "Valeria",
     text: "Choose who you would like to meet.",
-    portrait: "/assets/busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria4.png",
     options: [
 
       {
@@ -841,7 +841,7 @@ const textNodes = [
     id: 303,
     name: "Valeria",
     text: "Choose who you would like to meet.",
-    portrait: "/assets/busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria4.png",
     options: [
 
       {
@@ -870,7 +870,7 @@ const textNodes = [
     id: 304,
     name: "Valeria",
     text: "Choose who you would like to meet.",
-    portrait: "/assets/busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria4.png",
     options: [
 
       {
@@ -899,7 +899,7 @@ const textNodes = [
     id: 305,
     name: "Valeria",
     text: "Choose who you would like to meet.",
-    portrait: "/assets/busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria4.png",
     options: [
 
       {
@@ -923,7 +923,7 @@ const textNodes = [
     id: 400,
     name: "Dante",
     text: "This is an example Freetime Event. What do you want?",
-    portrait: "/assets/busts/Dante/Dante.png",
+    portrait: "/js_mysterygame/assets/busts/Dante/Dante.png",
     options: [
 
       {
@@ -952,7 +952,7 @@ const textNodes = [
     id: 401,
     name: "Dante",
     text: "What do you want to talk about?",
-    portrait: "/assets/busts/Dante/Dante.png",
+    portrait: "/js_mysterygame/assets/busts/Dante/Dante.png",
     options: [
 
       {
