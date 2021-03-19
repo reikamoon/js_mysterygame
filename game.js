@@ -943,7 +943,7 @@ const textNodes = [
 
       {
         text: "Trivia",
-        nextText: 400
+        nextText: 1
       },
     ]
   },
