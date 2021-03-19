@@ -118,7 +118,7 @@ const textNodes = [
     id: 100,
     name: "???",
     text: "Oh, I see you're awake now. How are you feeling, Sam?",
-    portrait: "/assets/busts/Valeria/ValeriaSad.png",
+    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
         text: 'Who are you?',
