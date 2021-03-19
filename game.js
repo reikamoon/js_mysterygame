@@ -90,7 +90,7 @@ const textNodes = [
     id: 1,
     name: "Valeria",
     text: "Welcome! Please select one of the below choices to get started.",
-    portrait: "/js_mysterygame/assets/Busts/Valeria/Valeria4.png",
+    portrait: "js_mysterygame/assets/Busts/Valeria/Valeria4.png",
     options: [
       {
         text: 'Prologue',
@@ -118,7 +118,7 @@ const textNodes = [
     id: 100,
     name: "???",
     text: "Oh, I see you're awake now. How are you feeling, Sam?",
-    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad.png",
+    portrait: "js_mysterygame/assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
         text: 'Who are you?',
@@ -135,7 +135,7 @@ const textNodes = [
     id: 101,
     name: "???",
     text: "It's alright, calm down. My name is Valeria, I am an old friend of your father's. You are in my home, I invited you and your father here for a dinner party. Alas, you had an...accident.",
-    portrait: "/js_mysterygame/assets/busts/Valeria/ValeriaSad.png",
+    portrait: "js_mysterygame/assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
         text: 'An accident?',
@@ -152,7 +152,7 @@ const textNodes = [
     id: 102,
     name: "Valeria",
     text: "Yes. You hit your head in the dining room, and were asleep for a while. The puzzled look on your face may suggest retrograde amnesia...but I'm no doctor. I hope your memories return soon, you were our key witness.",
-    portrait: "/js_mysterygame/assets/busts/Valeria/Valeria3.png",
+    portrait: "js_mysterygame/assets/busts/Valeria/Valeria3.png",
     options: [
       {
         text: 'Key witness?',
@@ -923,7 +923,7 @@ const textNodes = [
     id: 400,
     name: "Dante",
     text: "This is an example Freetime Event. What do you want?",
-    portrait: "/js_mysterygame/assets/busts/Dante/Dante.png",
+    portrait: "js_mysterygame/assets/busts/Dante/Dante.png",
     options: [
 
       {
@@ -952,7 +952,7 @@ const textNodes = [
     id: 401,
     name: "Dante",
     text: "What do you want to talk about?",
-    portrait: "/js_mysterygame/assets/busts/Dante/Dante.png",
+    portrait: "js_mysterygame/assets/busts/Dante/Dante.png",
     options: [
 
       {
