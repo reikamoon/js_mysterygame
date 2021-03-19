@@ -314,9 +314,26 @@ const textNodes = [
   },
 
   {
+    id: 111,
+    name: "Dante",
+    text: "Don't play stupid. You were the last one with Arius before he died. We found you unconscious in the kitchen with Arius's dead body. It had to be you!",
+    portrait: "/assets/busts/Dante/DanteAngry2.png",
+    options: [
+      {
+        text: "I swear I'm not the killer.",
+        nextText: 112
+      },
+      {
+        text: "I don't even remember what happened.",
+        nextText: 112
+      }
+    ]
+  },
+
+  {
     id: 113,
     name: "Valeria",
-    text: "Thank you, Sam. There are 11 possible suspects. You must find the killer before they strike again. (Prologue End.)",
+    text: "Thank you, Sam. There are 11 possible suspects. (You can read more about the suspects in Meet the Cast on the menu) You must find the killer before they strike again. (Prologue End.)",
     portrait: "/assets/busts/Valeria/ValeriaSad2.png",
     options: [
       {
