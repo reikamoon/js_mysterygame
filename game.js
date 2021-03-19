@@ -90,7 +90,7 @@ const textNodes = [
     id: 1,
     name: "Valeria",
     text: "Welcome! Please select one of the below choices to get started.",
-    portrait: "/assets/Busts/Valeria/Valeria4.png",
+    portrait: "/js_mysterygame/assets/Busts/Valeria/Valeria4.png",
     options: [
       {
         text: 'Prologue',
