@@ -10,6 +10,8 @@ let state = {}
 //Ending Points
 let score = 0
 
+let interrogationscore = 0
+
 
 function startGame() {
   state = {}
@@ -47,13 +49,18 @@ function selectOption(option) {
   if (option.score) {
     modScore(option.score)
   }
+
+  if (option.interrogationscore) {
+    modInterrogationScore(option.interrogationscore)
+  }
+
   const nextTextNodeId = option.nextText
-  if (nextTextNodeId == 35) {
-      if(score >= 30) {
-          nextTextNodeId = 8
+  if (nextTextNodeId == 214) {
+      if(interrogationscore == 10) {
+          nextTextNodeId = 215
       }
       else {
-          nextTextNodeId = 9
+          nextTextNodeId = 216
       }
   }
   
@@ -69,6 +76,11 @@ function selectOption(option) {
 function modScore(number) {
     score += number
     window.alert("Current Score: " + number)
+}
+
+function modInterrogationScore(number) {
+  interrogationscore += number
+  window.alert("Current Score: " + interrogationscore)
 }
 
 
@@ -344,6 +356,408 @@ const textNodes = [
         text: "Back to Menu",
         nextText: 1
       }
+    ]
+  },
+
+  {
+    id: 200,
+    name: "Dad",
+    text: "Welcome to interrogation mode. This is a snippet of the gameplay for interrogations. I will tell you a story, and make sure you pay attention.",
+    portrait: "/assets/busts/Dad/Dad.png",
+    options: [
+      {
+        text: "Ready.",
+        nextText: 201
+      },
+      {
+        text: "Back to Menu",
+        nextText: 1
+      }
+    ]
+  },
+
+  {
+    id: 201,
+    name: "Dad",
+    text: "There was a crooked man, and he walked a crooked mile. He found a crooked sixpence, and a crooked stile. He bought a crooked cat, which caught a crooked mouse, and they all lived together, in a crooked little house. Did you get that?",
+    portrait: "/assets/busts/Dad/DadConfused.png",
+    options: [
+      {
+        text: "Ready.",
+        nextText: 202
+      },
+      {
+        text: "Back to Menu",
+        nextText: 1
+      }
+    ]
+  },
+
+  {
+    id: 202,
+    name: "Aurelia",
+    text: "I will try to retell the nursery rhyme, and if you see an error, make sure to point it out to get points. If you miss an error, you will lose points.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Ready!",
+        nextText: 203
+      },
+      {
+        text: "Back to the Rhyme",
+        nextText: 201
+      }
+    ]
+  },
+
+   {
+    id: 203,
+    name: "Aurelia",
+    text: "There was a crooked woman...",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Lie",
+        interrogationscore: 1,
+        nextText: 205
+      },
+      {
+        text: "Truth",
+        interrogationscore: -1,
+        nextText: 220
+      }
+    ]
+  },
+
+  {
+    id: 205,
+    name: "Aurelia",
+    text: "Me? Wrong? Don't be absurd!",
+    portrait: "/assets/busts/Aurelia/AureliaAngry.png",
+    options: [
+      {
+        text: "The crooked man, not woman.",
+        interrogationscore: 1,
+        nextText: 206
+      },
+      {
+        text: "The malformed man, not crooked.",
+        interrogationscore: -1,
+        nextText: 206
+      }
+    ]
+  },
+
+  {
+    id: 206,
+    name: "Aurelia",
+    text: "And he walked a crooked mile.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Lie",
+        interrogationscore: -1,
+        nextText: 221
+      },
+      {
+        text: "Truth",
+        interrogationscore: 1,
+        nextText: 207
+      }
+    ]
+  },
+
+  {
+    id: 207,
+    name: "Aurelia",
+    text: "He found a crooked sixpence and a crooked stile.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Lie",
+        interrogationscore: -1,
+        nextText: 222
+      },
+      {
+        text: "Truth",
+        interrogationscore: 1,
+        nextText: 208
+      }
+    ]
+  },
+
+  {
+    id: 208,
+    name: "Aurelia",
+    text: "He bought a crooked dog, which caught a crooked mouse.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Lie",
+        interrogationscore: 1,
+        nextText: 209
+      },
+      {
+        text: "Truth",
+        interrogationscore: -1,
+        nextText: 225
+      }
+    ]
+  },
+
+  {
+    id: 209,
+    name: "Aurelia",
+    text: "Me, wrong? Don't be absurd! Where's your proof?",
+    portrait: "/assets/busts/Aurelia/AureliaAngry.png",
+    options: [
+      {
+        text: "He bought a crooked hog.",
+        interrogationscore: -1,
+        nextText: 210
+      },
+      {
+        text: "He bought a crooked cat.",
+        interrogationscore: 1,
+        nextText: 210
+      }
+    ]
+  },
+
+  {
+    id: 210,
+    name: "Aurelia",
+    text: "And they all lived together.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Lie",
+        interrogationscore: -1,
+        nextText: 223
+      },
+      {
+        text: "Truth",
+        interrogationscore: 1,
+        nextText: 211
+      }
+    ]
+  },
+
+  {
+    id: 211,
+    name: "Aurelia",
+    text: "In a crooked little hows.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "Lie",
+        interrogationscore: 1,
+        nextText: 212
+      },
+      {
+        text: "Truth",
+        interrogationscore: -1,
+        nextText: 224
+      }
+    ]
+  },
+
+  {
+    id: 212,
+    name: "Aurelia",
+    text: "Me, wrong? Don't be absurd! Where's your proof?",
+    portrait: "/assets/busts/Aurelia/AureliaAngry.png",
+    options: [
+      {
+        text: "crooked house.",
+        interrogationscore: 1,
+        nextText: 213
+      },
+      {
+        text: "crooked hausse.",
+        interrogationscore: -1,
+        nextText: 1
+      }
+    ]
+  },
+
+  {
+    id: 213,
+    name: "Aurelia",
+    text: "Let's see how well you did. What animal caught what in the poem?",
+    portrait: "/assets/busts/Aurelia/AureliaSurprised.png",
+    options: [
+      {
+        text: "The crooked dog caught a crooked mouse.",
+        interrogationscore: -1,
+        nextText: 214
+      },
+
+      {
+        text: "The crooked cat caught a crooked rat.",
+        interrogationscore: -1,
+        nextText: 214
+      },
+
+       {
+        text: "The crooked cat caught a crooked mouse",
+        interrogationscore: 1,
+        nextText: 214
+      },
+
+      {
+        text: "The crooked hamster caught a crooked dog",
+        interrogationscore: -1,
+        nextText: 214
+      },
+    ]
+  },
+
+  {
+    id: 215,
+    name: "Aurelia",
+    text: "Congratulations! A perfect score! Great job! (End of interrogation demo).",
+    portrait: "/assets/busts/Aurelia/AureliaSurprised.png",
+    options: [
+      {
+        text: "Restart",
+        interrogationscore: -9,
+        nextText: 200
+      },
+
+      {
+        text: "Back to Menu",
+        interrogationscore: -9,
+        nextText: 1
+      },
+    ]
+  },
+
+  {
+    id: 216,
+    name: "Aurelia",
+    text: "Oh, dear. Looks like you lost. You need a perfect score in order to win. (End of interrogation demo).",
+    portrait: "/assets/busts/Aurelia/AureliaSad2.png",
+    options: [
+      {
+        text: "Restart",
+        interrogationscore: 10,
+        nextText: 200
+      },
+
+      {
+        text: "Back to Menu",
+        interrogationscore: 10,
+        nextText: 1
+      },
+    ]
+  },
+
+  {
+    id: 220,
+    name: "Aurelia",
+    text: "Wrong answer, sorry. I'm never wrong, you know.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "I'll get it next time...",
+        nextText: 206
+      },
+
+      {
+        text: "Back to Rhyme",
+        nextText: 201
+      },
+    ]
+  },
+
+  {
+    id: 221,
+    name: "Aurelia",
+    text: "Wrong answer, sorry. I'm never wrong, you know.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "I'll get it next time...",
+        nextText: 207
+      },
+
+      {
+        text: "Back to Rhyme",
+        nextText: 201
+      },
+    ]
+  },
+
+  {
+    id: 225,
+    name: "Aurelia",
+    text: "Wrong answer, sorry. I'm never wrong, you know.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "I'll get it next time...",
+        nextText: 210
+      },
+
+      {
+        text: "Back to Rhyme",
+        nextText: 201
+      },
+    ]
+  },
+
+  {
+    id: 222,
+    name: "Aurelia",
+    text: "Wrong answer, sorry. I'm never wrong, you know.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "I'll get it next time...",
+        nextText: 208
+      },
+
+      {
+        text: "Back to Rhyme",
+        nextText: 201
+      },
+    ]
+  },
+
+  {
+    id: 223,
+    name: "Aurelia",
+    text: "Wrong answer, sorry. I'm never wrong, you know.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "I'll get it next time...",
+        nextText: 211
+      },
+
+      {
+        text: "Back to Rhyme",
+        nextText: 201
+      },
+    ]
+  },
+
+   {
+    id: 224,
+    name: "Aurelia",
+    text: "Wrong answer, sorry. I'm never wrong, you know.",
+    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    options: [
+      {
+        text: "I'll get it next time...",
+        nextText: 213
+      },
+
+      {
+        text: "Back to Rhyme",
+        nextText: 201
+      },
     ]
   },
 
