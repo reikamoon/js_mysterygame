@@ -9,7 +9,7 @@ let state = {}
 // Variables used in game
 //Ending Points
 let score = 0
-
+// Interrogation Points
 let interrogationscore = 0
 
 
