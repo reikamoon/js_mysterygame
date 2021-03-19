@@ -919,6 +919,54 @@ const textNodes = [
     ]
   },
 
+  {
+    id: 400,
+    name: "Dante",
+    text: "This is an example Freetime Event. What do you want?",
+    portrait: "/assets/busts/Dante/Dante.png",
+    options: [
+
+      {
+        text: "Talk",
+        nextText: 401
+      },
+
+      {
+        text: "Show",
+        nextText: 400
+      },
+
+      {
+        text: "Back to Menu",
+        nextText: 1
+      },
+
+      {
+        text: "Trivia",
+        nextText: 400
+      },
+    ]
+  },
+
+   {
+    id: 401,
+    name: "Dante",
+    text: "What do you want to talk about?",
+    portrait: "/assets/busts/Dante/Dante.png",
+    options: [
+
+      {
+        text: "The murder.",
+        nextText: 402
+      },
+
+      {
+        text: "How are you faring?",
+        nextText: 400
+      },
+    ]
+  },
+
   
 
 ]
