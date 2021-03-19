@@ -993,6 +993,24 @@ const textNodes = [
     ]
   },
 
+  {
+    id: 310,
+    name: "Dad",
+    text: "I am your father. I used to be a pretty big deal back in the day as an artist, but I'm retired now. I just mentor young artists nowadays.",
+    portrait: "/assets/busts/Dad/Dad.png",
+    options: [
+      {
+        text: "Special Skills",
+        nextText: 311
+      },
+
+      {
+        text: "Relationships",
+        nextText: 312
+      },
+    ]
+  },
+
 
 
 
