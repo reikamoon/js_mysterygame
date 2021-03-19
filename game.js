@@ -54,7 +54,7 @@ function selectOption(option) {
     modInterrogationScore(option.interrogationscore)
   }
 
-  const nextTextNodeId = option.nextText
+  var nextTextNodeId = option.nextText
   if (nextTextNodeId == 214) {
       if(interrogationscore == 10) {
           nextTextNodeId = 215
@@ -609,6 +609,26 @@ const textNodes = [
         text: "The crooked hamster caught a crooked dog",
         interrogationscore: -1,
         nextText: 214
+      },
+    ]
+  },
+
+  {
+    id: 214,
+    name: "Something weird",
+    text: "Congratulations! A perfect score! Great job! (End of interrogation demo).",
+    portrait: "/assets/busts/Aurelia/AureliaSurprised.png",
+    options: [
+      {
+        text: "Restart",
+        interrogationscore: -9,
+        nextText: 200
+      },
+
+      {
+        text: "Back to Menu",
+        interrogationscore: -9,
+        nextText: 1
       },
     ]
   },
