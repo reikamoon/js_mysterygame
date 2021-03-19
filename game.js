@@ -919,6 +919,65 @@ const textNodes = [
     ]
   },
 
+   {
+    id: 306,
+    name: "Valeria",
+    text: "My name is Valeria, I am the wife of a wealthy director, and long time friend of your father's.",
+    portrait: "/assets/busts/Valeria/Valeria.png",
+    options: [
+      {
+        text: "Special Skills",
+        nextText: 307
+      },
+
+      {
+        text: "Relationships",
+        nextText: 308
+      },
+    ]
+  },
+
+  {
+    id: 307,
+    name: "Valeria",
+    text: "My skills? Hmmm...I certainly know how to throw a party, don't you think? It's a shame what happened, though. I also know all my guests rather well...maybe even know some deep dark secrets.",
+    portrait: "/assets/busts/Valeria/ValeriaThinking2.png",
+    options: [
+      {
+        text: "Back",
+        nextText: 306
+      },
+
+      {
+        text: "Next",
+        nextText: 309
+      },
+    ]
+  },
+
+  {
+    id: 308,
+    name: "Valeria",
+    text: "My relationships? Like I said, I'm a long time friend of your father. Arius is my nephew, through my husband. Aurelia is my dear younger sister. I am well acquainted with Dante and Katalina's family as well. He seems rather rude to others, but he seems very kind and bashful around me. I wonder why?",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+      {
+        text: "Back",
+        nextText: 306
+      },
+
+      {
+        text: "Next",
+        nextText: 309
+      },
+    ]
+  },
+
+
+
+
+
+
   {
     id: 400,
     name: "Dante",
