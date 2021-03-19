@@ -1,4 +1,4 @@
-# Mystery Game: The Art of Death
+# Mystery Game: The Art of Murder
 by reikamoon :ribbon:<br>
 March 15th, 2021 - March 23rd, 2021
 
