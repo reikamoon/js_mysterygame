@@ -9,11 +9,7 @@ let state = {}
 // Variables used in game
 //Ending Points
 let score = 0
-// Friendship with suspects
-let ValeriaRP = 0
-let DanteRP = 0
-let VivianRP = 0
-let OskarRP = 0
+
 
 function startGame() {
   state = {}
@@ -72,222 +68,264 @@ function selectOption(option) {
 
 function modScore(number) {
     score += number
+    window.alert("Current Score: " + number)
 }
 
-function modValeriaRP(number) {
-    ValeriaRP += number
-}
 
 const textNodes = [
 
   {
     id: 1,
+    name: "Valeria",
+    text: "Welcome! Please select one of the below choices to get started.",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+      {
+        text: 'Prologue',
+        nextText: 100
+      },
+
+      {
+        text: 'Interrogation',
+        nextText: 200
+      },
+
+       {
+        text: 'Meet the Cast',
+        nextText: 300
+      },
+
+       {
+        text: 'Freetime',
+        nextText: 400
+      }
+    ]
+  },
+
+    {
+    id: 100,
     name: "???",
-    text: "Oh, you're finally awake.",
-    portrait: "/assets/busts/Valeria/Valeria.png",
+    text: "Oh, I see you're awake now. How are you feeling, Sam?",
+    portrait: "/assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
         text: 'Who are you?',
-        nextText: 2
+        nextText: 101
       },
       {
-        text: 'Where am I?',
-        nextText: 2
+        text: 'What happened?',
+        nextText: 101
       }
     ]
   },
 
   {
-    id: 2,
-    name: "Valeria",
-    text: "Goodness, you must've hit your head hard...",
+    id: 101,
+    name: "???",
+    text: "It's alright, calm down. My name is Valeria, I am an old friend of your father's. You are in my home, I invited you and your father here for a dinner party. Alas, you had an...accident.",
     portrait: "/assets/busts/Valeria/ValeriaSad.png",
     options: [
       {
-        text: "Next",
-        nextText: 3
+        text: 'An accident?',
+        nextText: 102
       },
       {
-        text: 'Back',
-        nextText: 1
+        text: 'Where is my father?',
+        nextText: 103
       }
     ]
   },
 
   {
-    id: 3,
+    id: 102,
     name: "Valeria",
-    text: "My name is Valeria. Your name is Sam. I am a friend of your father's, and you're currently in my living room. You...had an accident.",
-    portrait: "/assets/busts/Valeria/ValeriaHappy3.png",
+    text: "Yes. You hit your head in the dining room, and were asleep for a while. The puzzled look on your face may suggest retrograde amnesia...but I'm no doctor. I hope your memories return soon, you were our key witness.",
+    portrait: "/assets/busts/Valeria/Valeria3.png",
     options: [
       {
-        text: "An accident?",
-        nextText: 4
+        text: 'Key witness?',
+        nextText: 104
       },
       {
-        text: 'My Father? Where is he?',
-        nextText: 5
+        text: 'Where is my father?',
+        nextText: 103
       }
     ]
   },
 
   {
-    id: 4,
+    id: 103,
     name: "Valeria",
-    text: "Yes...judging by that puzzled look, I think you may have some sort of retrograde amnesia...but I'm no doctor. I found you unconscious in the dining room. I am unsure of what had happened before that.",
-    portrait: "/assets/busts/Valeria/ValeriaHappy3.png",
+    text: "Oh, you mustn't worry your little bandaged head, Sammy. Your father is with the others right now, in the den. It's best we have everyone in one room, considering there's a murderer on the loose. ",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
     options: [
       {
-        text: "So why am I here?",
-        nextText: 6
+        text: 'Murderer?!',
+        nextText: 104
       },
       {
-        text: 'What about my Father?',
-        nextText: 5
+        text: 'What happened to my head?',
+        nextText: 102
       }
     ]
   },
 
   {
-    id: 5,
+    id: 104,
     name: "Valeria",
-    text: "Your father and I have known each other since before you were born. He went off to look for a doctor after we found you unconscious in the dining room. He should be returning soon.",
-    portrait: "/assets/busts/Valeria/Valeria.png",
-    options: [
-      {
-        text: "So why am I here?",
-        nextText: 6
-      },
-      {
-        text: "What was I doing before my accident?",
-        nextText: 6
-      }
-    ]
-  },
-
-  {
-    id: 6,
-    name: "Valeria",
-    text: "...",
+    text: "Ah, yes. I won't beat around the bush: our guest of honor, Arius, has been murdered in the kitchen. You were the last person with Arius before he died.",
     portrait: "/assets/busts/Valeria/ValeriaSad2.png",
     options: [
       {
-        text: "Are you alright?",
-        score: 2,
-        nextText: 7
+        text: 'Can you tell me more details about the murder?',
+        nextText: 105
       },
       {
-        text: "Look, just say it already. Don't hide things from me.",
-        score: -2,
-        nextText: 7
+        text: 'Can you tell me about Arius?',
+        nextText: 106
       }
     ]
   },
 
   {
-    id: 7,
+    id: 105,
     name: "Valeria",
-    text: "My apologies...but it is a bit much to explain.",
+    text: "Certainly. Arius was murdered with a kitchen knife, and left bleeding on the kitchen floor. I believe it was one stab to the chest. Again, you were the last one with Arius before he died.I don't believe you did it, but the others...",
     portrait: "/assets/busts/Valeria/ValeriaThinking.png",
+    photo: "/assets/busts/Arius/AriusPortraitBW.png",
     options: [
       {
-        text: "Go on...",
-        score: 2,
-        nextText: 8
+        text: 'The others?',
+        nextText: 107
       },
       {
-        text: "Make it quick, then.",
-        score: -2,
-        nextText: 8
+        text: 'Who was Arius?',
+        nextText: 106
       }
     ]
   },
 
-   {
-    id: 8,
+  {
+    id: 106,
     name: "Valeria",
-    text: "I invited you and your father to my home for a dinner party. Cliché, I know...but we were celebrating a friend of mine's victory in an esteemed art competition.",
-    portrait: "/assets/busts/Valeria/ValeriaSad.png",
-    options: [
-      {
-        text: "About your friend...",
-        nextText: 9
-      },
-      {
-        text: "Art competition?",
-        nextText: 10
-      }
-    ]
-  },
-
-   {
-    id: 9,
-    name: "Valeria",
-    text: "Yes. My dear friend, Arius...he is no longer with us, I'm afraid. He was murdered...",
+    text: "Arius...he was your father's protégé. We were celebrating his very first art competition victory after several losses. It's such a tragedy...his luck has run dry.",
     portrait: "/assets/busts/Valeria/ValeriaSad2.png",
     photo: "/assets/busts/Arius/AriusPortraitBW.png",
     options: [
       {
-        text: "Murdered? Did they catch the killer?",
-        score: 1,
-        nextText: 15
+        text: 'Any other information on his murder?',
+        nextText: 105
       },
       {
-        text: "I'm sorry for your loss.",
+        text: 'Any suspects?',
+        nextText: 107
+      }
+    ]
+  },
+
+  {
+    id: 107,
+    name: "???",
+    text: "Valeria, Sam, is everything alright in there?",
+    portrait: "/assets/busts/Valeria/Valeria2.png",
+    photo: "None",
+    options: [
+      {
+        text: '(Answer politely)',
         score: 2,
-        nextText: 15
-      }
-    ]
-  },
-
-  {
-    id: 10,
-    name: "Valeria",
-    text: "Yes, he supposedly won first place.",
-    portrait: "/assets/busts/Valeria/ValeriaHappy2.png",
-    options: [
-      {
-        text: "...Supposedly?",
-        nextText: 11
+        nextText: 108
       },
       {
-        text: "You don't sound too confident.",
-        nextText: 11
+        text: '(Ignore)',
+        score: -2,
+        nextText: 109
       }
     ]
   },
 
   {
-    id: 11,
-    name: "Valeria",
-    text: "Listen...I love Arius dearly. I would not dare to talk poorly about the deceased, but...his style is quite questionable. He has entered many competitions, but lost all but this one. It's a shame his luck ran dry. But hey, I was in his shoes before. Can't win them all.",
-    portrait: "/assets/busts/Valeria/ValeriaAngry.png",
+    id: 108,
+    name: "???",
+    text: "Thank god you're alright, Valeria. It's good to see you're awake, Sam. You've got a lot to answer for.",
+    portrait: "/assets/busts/Dante/DanteAnnoyed.png",
     options: [
       {
-        text: "()",
-        nextText: 14
+        text: 'Who are you?',
+        nextText: 110
       },
       {
-        text: "(She seems jealous...)",
-        setState: { valeriaSus: true },
-        nextText: 12
+        text: 'Answer for?',
+        nextText: 111
       }
     ]
   },
 
   {
-    id: 12,
-    name: "Sam (player)",
-    text: "(Something is off about the way she talks about Arius. Maybe I should push further? What should I ask?)",
+    id: 109,
+    name: "???",
+    text: "Valeria! Thank god you're alright. It was so quiet in here...I had thought Sam gutted you as well. You've got a lot of nerve, Sam. I'll personally make sure you answer for your crimes!",
+    portrait: "/assets/busts/Dante/DanteAngry2.png",
+    photo: "None",
+    options: [
+      {
+        text: 'Who are you?',
+        nextText: 110
+      },
+      {
+        text: 'My crimes? Sure, I j-walked once...',
+        nextText: 111
+      }
+    ]
+  },
+  
+  {
+    id: 110,
+    name: "Dante",
+    text: "You must've hit your head harder than I thought. But you could easily be playing dumb. It's me, Dante. You know, Katalina's brother, and Arius's friend. You know, the guy your murdered in cold blood. You will pay for what you did. I swear it.",
+    portrait: "/assets/busts/Dante/DanteAngry2.png",
+    options: [
+      {
+        text: 'My crimes?',
+        nextText: 111
+      },
+      {
+        text: 'Watch your tongue.',
+        score: -2,
+        nextText: 112
+      }
+    ]
+  },
+
+  {
+    id: 112,
+    name: "Valeria",
+    text: "Dante, stop it! There's no way that Sam killed Arius. Sam is innocent. Sam, you must prove your innocence. I cannot allow the others to slander you like this any further! ",
+    portrait: "/assets/busts/Valeria/ValeriaAngry4.png",
+    options: [
+      {
+        text: "Don't worry. I won't let you down.",
+        nextText: 113
+      },
+      {
+        text: "I swear I will find the killer.",
+        nextText: 113
+      }
+    ]
+  },
+
+  {
+    id: 113,
+    name: "Valeria",
+    text: "Thank you, Sam. There are 11 possible suspects. You must find the killer before they strike again. (Prologue End.)",
     portrait: "/assets/busts/Valeria/ValeriaSad2.png",
     options: [
       {
-        text: "You sound like you're jealous of Arius's sudden victory.",
-        nextText: 13
+        text: "Restart the Prologue",
+        nextText: 100
       },
       {
-        text: "",
-        nextText: 13
+        text: "Back to Menu",
+        nextText: 1
       }
     ]
   },
