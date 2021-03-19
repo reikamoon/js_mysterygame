@@ -657,7 +657,7 @@ const textNodes = [
     id: 220,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -675,7 +675,7 @@ const textNodes = [
     id: 221,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -693,7 +693,7 @@ const textNodes = [
     id: 225,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -711,7 +711,7 @@ const textNodes = [
     id: 222,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -729,7 +729,7 @@ const textNodes = [
     id: 223,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -747,7 +747,7 @@ const textNodes = [
     id: 224,
     name: "Aurelia",
     text: "Wrong answer, sorry. I'm never wrong, you know.",
-    portrait: "/assets/busts/Aurelia/Aurelia2.png",
+    portrait: "/assets/busts/Aurelia/AureliaAngry2.png",
     options: [
       {
         text: "I'll get it next time...",
@@ -760,6 +760,166 @@ const textNodes = [
       },
     ]
   },
+
+   {
+    id: 300,
+    name: "Valeria",
+    text: "There are exactly 13 characters throughout the game. Care to meet them?",
+    portrait: "/assets/busts/Valeria/ValeriaHappy2.png",
+    options: [
+      {
+        text: "Yes",
+        nextText: 301
+      },
+
+      {
+        text: "Back to Menu",
+        nextText: 0
+      },
+    ]
+  },
+
+  {
+    id: 301,
+    name: "Valeria",
+    text: "Choose who you would like to meet.",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+
+      {
+        text: "Valeria",
+        nextText: 306
+      },
+
+      {
+        text: "Dad",
+        nextText: 310
+      },
+
+      {
+        text: "Sam",
+        nextText: 314
+      },
+
+      {
+        text: "More",
+        nextText: 302
+      },
+    ]
+  },
+
+  {
+    id: 302,
+    name: "Valeria",
+    text: "Choose who you would like to meet.",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+
+      {
+        text: "Arius",
+        nextText: 318
+      },
+
+      {
+        text: "Dante",
+        nextText: 321
+      },
+
+      {
+        text: "Katalina",
+        nextText: 325
+      },
+
+      {
+        text: "More",
+        nextText: 303
+      },
+    ]
+  },
+
+   {
+    id: 303,
+    name: "Valeria",
+    text: "Choose who you would like to meet.",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+
+      {
+        text: "Vivian",
+        nextText: 329
+      },
+
+      {
+        text: "Oskar",
+        nextText: 332
+      },
+
+      {
+        text: "Elijah",
+        nextText: 336
+      },
+
+      {
+        text: "More",
+        nextText: 304
+      },
+    ]
+  },
+
+  {
+    id: 304,
+    name: "Valeria",
+    text: "Choose who you would like to meet.",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+
+      {
+        text: "Sabrina",
+        nextText: 340
+      },
+
+      {
+        text: "Lena",
+        nextText: 344
+      },
+
+      {
+        text: "Connor",
+        nextText: 348
+      },
+
+      {
+        text: "More",
+        nextText: 305
+      },
+    ]
+  },
+
+  {
+    id: 305,
+    name: "Valeria",
+    text: "Choose who you would like to meet.",
+    portrait: "/assets/busts/Valeria/Valeria4.png",
+    options: [
+
+      {
+        text: "Aurelia",
+        nextText: 352
+      },
+
+      {
+        text: "Back to beginning",
+        nextText: 301
+      },
+
+      {
+        text: "Back to Menu",
+        nextText: 1
+      },
+    ]
+  },
+
+  
 
 ]
 
