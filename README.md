@@ -22,3 +22,5 @@ Your father’s protege winds up dead, and everyone suspects you’re the culpri
 Can you prove your innocence and catch the killer...before they strike again?
 
 <img src="assets/screenshots/6.png">
+
+Character Bust Generator by BlackRoseMii
